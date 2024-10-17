@@ -1,4 +1,4 @@
-REATE DATABASE IF NOT EXISTS Pollution;
+CREATE DATABASE IF NOT EXISTS Pollution;
 USE Pollution;
 
 -- select * from plastics;
