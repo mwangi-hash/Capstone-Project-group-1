@@ -1,9 +1,12 @@
-select * from plastics;
+REATE DATABASE IF NOT EXISTS Pollution;
+USE Pollution;
 
-use plastics ;
+-- select * from plastics;
+
+-- use plastics ;
 
 -- Create the Country table
-CREATE TABLE County1 (
+CREATE TABLE Country (
     country_id INT AUTO_INCREMENT PRIMARY KEY,
     country_name VARCHAR(255) NOT NULL
 );
@@ -35,7 +38,7 @@ CREATE TABLE PlasticData (
 );
 
 -- Inserting sample data into Country table
-INSERT INTO County1 (country_name)
+INSERT INTO Country (country_name)
 VALUES
 ('Argentina'),
 ('Brazil'),
